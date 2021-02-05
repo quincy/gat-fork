@@ -1,10 +1,10 @@
-# Does it build again if I push a new commit?
 name: Build new PR with Maven
 
 on:
 
   pull_request:
     branches: [ $default-branch ]
+    types: [ opened, synchronize, edited ]
 
 jobs:
   build:
