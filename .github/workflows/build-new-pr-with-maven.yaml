@@ -1,4 +1,3 @@
-# Does it build?
 name: Build new PR with Maven
 
 on:
